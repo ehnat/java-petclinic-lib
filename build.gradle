@@ -1,0 +1,32 @@
+buildscript {
+    ext {
+        lombokVersion = '1.18.18'
+    }
+}
+
+plugins {
+    id 'java'
+    id 'groovy'
+}
+
+group 'com.petclinic'
+version '1.0'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    annotationProcessor "org.projectlombok:lombok:$lombokVersion"
+    compileOnly "org.projectlombok:lombok:$lombokVersion"
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.1'
+    implementation 'org.codehaus.groovy:groovy-all:3.0.9'
+    implementation 'io.rest-assured:rest-assured:4.4.0'
+}
+
+test {
+    useJUnitPlatform()
+}
