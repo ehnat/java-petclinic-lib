@@ -2,12 +2,20 @@
 
 ### Project description
 
+The goal of the project: creating a library for calls to PetClinic API. It can be used in other projects as external
+dependency. The library is created as jar file.
+
+### Technical description
+
+- Used technologies: Groovy 3, Java 8, Gradle
+- Used frameworks/libraries: RestAssured
+
 ### How to create jar file from project
-https://docs.gradle.org/current/samples/sample_building_java_libraries.html
 
 - `gradlew clean jar`
+- jar file is generated in a directory `/build/libs`
 
-Jar file is generated in a directory `/build/libs`
+### Useful:
 
-### How to add jar file to gradle project
-https://stackoverflow.com/questions/20700053/how-to-add-local-jar-file-dependency-to-build-gradle-file
+- [building java libraries](https://docs.gradle.org/current/samples/sample_building_java_libraries.html)
+- [adding jar in gradle project](https://stackoverflow.com/questions/20700053/how-to-add-local-jar-file-dependency-to-build-gradle-file)
