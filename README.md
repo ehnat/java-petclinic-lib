@@ -17,5 +17,6 @@ dependency. The library is created as jar file.
 
 ### Useful:
 
-- [building java libraries](https://docs.gradle.org/current/samples/sample_building_java_libraries.html)
-- [adding jar in gradle project](https://stackoverflow.com/questions/20700053/how-to-add-local-jar-file-dependency-to-build-gradle-file)
+- [Building java libraries](https://docs.gradle.org/current/samples/sample_building_java_libraries.html)
+- [Adding jar in gradle project](https://stackoverflow.com/questions/20700053/how-to-add-local-jar-file-dependency-to-build-gradle-file)
+- [Factory method](https://refactoring.guru/design-patterns/factory-method)

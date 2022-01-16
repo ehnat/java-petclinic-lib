@@ -27,6 +27,6 @@ dependencies {
     implementation 'io.rest-assured:rest-assured:4.4.0'
 }
 
-test {
-    useJUnitPlatform()
+jar {
+    archivesBaseName = 'petclinic'
 }
